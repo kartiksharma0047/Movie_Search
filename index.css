@@ -3,12 +3,8 @@
     padding: 0%;
     box-sizing: border-box;
 }
-body {
+#whole {
     background-color: #121212;
-    display: flex;
-    flex-direction: column;
-    min-height:100vh;
-    justify-content: space-between;
 }
 #wrapper{
     background-color: #27272a;
@@ -19,8 +15,8 @@ body {
     justify-content: center;
 }
 #wrapper input{
-    position: relative;
-    width: 30%;
+    width: 100%;
+    max-width: 400px;
     height: 50px;
     padding-left: 20px;
     border-radius: 10px;
@@ -31,10 +27,7 @@ body {
 }
 #btn{
     color: #000000;
-    position: absolute;
     padding-top: 21px;
-    top: 60px;
-    right: 525px;
     font-size: 1.2rem;
     background-color: rgb(171, 230, 255);
     height: 70px;
@@ -57,10 +50,12 @@ body {
 }
 #output{
     width: 95%;
-    margin: 60px auto 60px auto;
+    margin: 0px auto;
+    padding:95px 0 ;
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
+    background-color: #121212;
 }
 .poster{
     background-color: black;
@@ -86,21 +81,16 @@ body {
     color: rgb(255, 255, 87);
     font-weight: bolder;
 }
-h1 {
-    position: absolute;
+.visible{
     color: #393939;
     text-align: center;
     font-size: 3.5em;
-    top: 50%;
-    left: 40%;
-    margin: 0;
-    transform: rotateZ(-28deg);
+    padding-bottom:190px ;
 }
 footer {
     background-color: black;
     color: white;
     padding: 60px 0;
-    margin-top: auto;
 }
 #align{
     margin: 0 auto;
