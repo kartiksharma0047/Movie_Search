@@ -1,0 +1,133 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+    justify-content: space-between;
+}
+#wrapper{
+    background-color: #27272a;
+    text-align: center;
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#wrapper input{
+    position: relative;
+    width: 30%;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: #1e1e1e;
+    margin-right: 1.2rem;
+}
+#btn{
+    color: #000000;
+    position: absolute;
+    padding-top: 21px;
+    top: 60px;
+    right: 525px;
+    font-size: 1.2rem;
+    background-color: rgb(171, 230, 255);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid white;
+    border-style: inset;
+    transition: all 0.3s;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(63, 197, 255);
+    transform: scale(1.101);
+}
+#btn:active{
+    transition: none;
+    color: whitesmoke;
+    background-color: rgb(32, 51, 255);
+    border-color: rgb(160, 160, 160);
+}
+#output{
+    width: 95%;
+    margin: 60px auto 60px auto;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.poster{
+    background-color: black;
+    padding: 10px 30px;
+    margin: 15px 25px;
+    text-align: center;
+}
+.poster img{
+    height: 310px;
+    width: 225px;
+}
+.poster h3{
+    color: white;
+    width: 225px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.poster p{
+    padding: 5px 0;
+    color: white;
+}
+.poster span{
+    color: rgb(255, 255, 87);
+    font-weight: bolder;
+}
+h1 {
+    position: absolute;
+    color: #393939;
+    text-align: center;
+    font-size: 3.5em;
+    top: 50%;
+    left: 40%;
+    margin: 0;
+    transform: rotateZ(-28deg);
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 60px 0;
+    margin-top: auto;
+}
+#align{
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    list-style-type: none;
+}
+footer ul li a{
+    font-size: 23px;
+    margin: 0px 10px;
+    color: white;
+    transition: all 0.3s;
+}
+footer ul li a:hover{
+    color: royalblue;
+}
+footer h3{
+    border-top: 1px solid white;
+    padding: 10px 0 2px 70px;
+    font-size: 1.1rem;
+}
+footer p{
+    text-align: right;
+    font-size: 0.7rem;
+}
